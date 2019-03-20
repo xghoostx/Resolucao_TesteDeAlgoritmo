@@ -8,8 +8,6 @@ const createCheckDigit = (membershipId) => {
     validation = sum.split('').length; 
 
     if (validation == 1) console.log(sum);
-
-    return validation;
 }
 
 createCheckDigit('55555');
