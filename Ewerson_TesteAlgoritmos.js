@@ -12,6 +12,5 @@ const createCheckDigit = (membershipId) => {
 
 createCheckDigit('55555');
 
-while (validation != 1) {
-    createCheckDigit(sum);
-}
+while (validation != 1) createCheckDigit(sum);
+
